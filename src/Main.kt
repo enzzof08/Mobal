@@ -37,20 +37,71 @@ fun main() {
 //    val peso: Float = 73.123456789F
 //    println(peso)
 
-    val altura: Double = 1.73
-    println(altura)
+//    val altura: Double = 1.73
+//    println(altura)
 
 
-    val x : Int = 10
-    val y: Double = x.toDouble()
-    val z: Double = x
+//    val x : Int = 10
+//    val y: Double = x.toDouble()
+//    val z: Double = x
+
+//    val result = 10 % 3
+//    println(result)
+
+    mandaSalve("joao")
+    mandaSalve()
+
+    nota()
+    idade()
+    quando()
+
+    var nome : String? = "joao"
+    nome = null
+
+    var numeros = arrayOf(1, 2, 2)
+    println(numeros[0])  // 1
+    numeros[1] = 50
+    println(numeros[1])  // 50
+    println(numeros.first())
+    println(numeros.last())
 
 }
 
-fun texto(){
-    val nome: String = "joao"
-    val idade = 25
+fun nota(){
+    val nota = 7
+    if(nota >= 9){
+        println("Excelente")
+    }else if(nota >= 6){
+        println("Bom")
+    }else{
+        println("Reprovado")
+    }
+}
 
-    println("Bom dia $nome! Logo logo você fará ${idade + 1} anos!")
+fun idade(){
+    val idade = 20
+    val status = if(idade >= 18){
+        "Maior de idade"
+        println("Teste 2")
+        println("Teste 3")
+    }else{
+        "Menor de idade"
+    }
+    println(status)
+}
+
+fun quando(){
+    val nota = 9
+    when(nota){
+        9, 10 -> println("Excelente")
+        7, 8 -> println("Bom")
+        6 -> println("Regular")
+        else -> "Outro dia"
+    }
+}
+
+fun mandaSalve(nome: String = "mano"){
+
+    println("Salve $nome")
 
 }
