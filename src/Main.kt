@@ -48,22 +48,87 @@ fun main() {
 //    val result = 10 % 3
 //    println(result)
 
-    mandaSalve("joao")
-    mandaSalve()
+//    mandaSalve("joao")
+//    mandaSalve()
+//
+//    nota()
+//    idade()
+//    quando()
+//
+//    var nome : String? = "joao"
+//    nome = null
+//
+//    var numeros = arrayOf(1, 2, 2)
+//    println(numeros[0])  // 1
+//    numeros[1] = 50
+//    println(numeros[1])  // 50
+//    println(numeros.first())
+//    println(numeros.last())
 
-    nota()
-    idade()
-    quando()
+//    var carros = mutableListOf("Corsa", "Celta")
+//    println(carros.size)
+//    println(carros.last())
+//    println(carros.add("Fusca"))
+//    println(carros.last())
+//
+//    val cores = setOf("Azul", "Verde", "Azul")
+//    cores.add("Amarelo") //nao funciona
+//    cores.remove("Azul") //nao funciona
+//
+//    val cores = mutableSetOf("Azul", "Verde", "Azul")
+//    cores.add("Amarelo")
+//    cores.remove(element = "Azul")
 
-    var nome : String? = "joao"
-    nome = null
 
-    var numeros = arrayOf(1, 2, 2)
-    println(numeros[0])  // 1
-    numeros[1] = 50
-    println(numeros[1])  // 50
-    println(numeros.first())
-    println(numeros.last())
+//    val pessoas = mapOf(
+//        "Joao" to 25,
+//        "Maria" to 26
+//    )
+//    println(pessoas["Joao"])
+//    println(pessoas["Maria"])
+//    pessoas["Maria"] = 27 // nao funciona
+
+
+//    val produtos = mutableMapOf(
+//        "pc" to "computador",
+//        "cl" to "celular"
+//    )
+//    println(produtos["pc"])
+//    produtos["ms"] = "mouse"
+//    produtos.remove(key = "pc")
+//    println(produtos)
+
+
+//    var i = 0
+//    while (i < 10){
+//        println(i)
+//
+//        i++
+//    }
+//
+//    1 .. 5  // 1 a 5
+//    1 until  5 // 1 a 4
+//    5 downTo 1 // 5 a 1
+//    1 .. 10 step 2 // 1, 3, 5, 7, 9
+
+//    for (i in 1 .. 5){
+//        println(i)
+//    }
+
+//    val carros = listOf("corsa", "celta", "fusca")
+//    for(carro in carros){
+//        println(carro)
+//    }
+
+
+//    val idade = 15
+//    when (idade){
+//        in 0 .. 12 -> println("Crianca")
+//        in 13 .. 17 -> println("Adoslescente")
+//        in 18 .. 59 -> println("Adulto")
+//        else -> println("Idoso")
+//    }
+
 
 }
 
