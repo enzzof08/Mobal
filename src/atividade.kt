@@ -3,20 +3,20 @@ fun main(){
 //    // EXERCICIO 1 -----------------------
 //    val numero1 = 4
 //    if(numero1 % 2 == 0){
-//        println("Numero Par")
+//        println("Par")
 //
 //    }else{
-//        println("Numero Impar")
+//        println("Impar")
 //    }
 
 //    //EXERCICIO 2 -----------------------
 //    val numero2 = -5
 //    if(numero2 > 0){
-//        println("Numero positivo")
+//        println("Positivo")
 //    }else if (numero2 == 0){
 //        println("Zero")
 //    }else{
-//        println("Numero negativo")
+//        println("Negativo")
 //    }
 
 //    // EXERCICIO 3 --------------------------
@@ -25,7 +25,7 @@ fun main(){
 //        in 0 until 12 -> println("Criança")
 //        in 12 .. 17 -> println("Adolescente")
 //        in 18 .. 59 -> println("Adulto")
-//        else -> println("Idoso")
+//        else -> if(idade < 0)println("invalido") else println("Idoso")
 //    }
 
 
@@ -93,5 +93,17 @@ fun main(){
 //    println("O valor em fahrenheit é ${fahrenheit}")
 
 
+    //Outro Exemplo
+//    val numeros = (1 .. 10).toList()
+//    val pares = numeros.filter { item ->
+//        item % 2 == 0
+//    }
+//    println(pares)
+
+
+
+
 }
+
+
 
